@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppID: cca6d8eb-455a-4d7f-b0a4-439e36c20b07
+  VoiceAppID: 
+  ChatAppID: 
+  HostType: 2
+  PreferredRegion: 1
+  EnabledRegions: -1
+  Protocol: 0
+  ServerAddress: 70.170.27.101
+  ServerPort: 5055
+  VoiceServerPort: 5055
+  JoinLobby: 1
+  EnableLobbyStatistics: 0
+  PunLogging: 0
+  NetworkLogging: 1
+  RunInBackground: 1
+  RpcList:
+  - Chat
+  - CheckList
+  - CmdAddPlayerToList
+  - ColorRpc
+  - DestroyRpc
+  - DoJump
+  - Flash
+  - GameFinish
+  - InstantiateRpc
+  - Marco
+  - PickupItemInit
+  - Polo
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - ReceiveForBuy
+  - RefreshListOthers
+  - RefreshPutAndPlayText
+  - refreshRemaningBallMaster
+  - RequestBuy
+  - RequestForPickupItems
+  - RequestForPickupTimes
+  - RpcAddPlayerToList2
+  - RpcClearList
+  - SendBingo
+  - SendListOthers
+  - SendMoney
+  - StartGame
+  - TaggedPlayer
+  - WaitInSpectator
+  DisableAutoOpenWizard: 1
